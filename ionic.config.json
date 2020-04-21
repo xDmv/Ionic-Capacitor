@@ -1,0 +1,7 @@
+{
+  "name": "online-note",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
