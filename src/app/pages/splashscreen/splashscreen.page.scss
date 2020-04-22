@@ -17,15 +17,23 @@
   font-size: 16px;
   line-height: 22px;
 
-  color: #8c8c8c;
+  // color: #8c8c8c;
 
   margin: 0;
+  
 }
 
 #container a {
   text-decoration: none;
 }
 
-ion-content ion-toolbar {
-  --background: translucent;
+
+
+.bg{
+  height: 100%;
+  background: linear-gradient(#fe9a00, #fc6f1e);
+  .logo{
+    width: 30%;
+    height: 30%;
+  }
 }

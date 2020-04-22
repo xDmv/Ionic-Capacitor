@@ -1,0 +1,70 @@
+.header{
+    background: linear-gradient(#fe9a00, #fc6f1e);
+    width: 100%;
+    height: 40%;
+    .login-header-bg{
+        height: auto;
+        width: 100%;
+        position: relative;
+        top: -11%;
+    }
+    .login-heder-box{
+        text-align: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 25%;
+        transform: translateY(-50%);
+        .login-logo{
+            width: 9.5em;
+            height: 9.5em;
+        }
+        .login-title{
+            color: #fff;
+            font-size: 24px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+}
+.content{
+    padding: 16px;
+    .login-input{
+        margin: 1em 0 1em 0;
+        text-align: center; 
+        border-bottom: 1px solid #bababa;
+        font-size: 21px;
+    }
+    .login-btn{
+        margin-top: 1em;
+        background: linear-gradient(#fd9900, #fc6f1d);
+        width: 100%;
+        color: #fff;
+        font-size: 21px;
+        font-weight: bold;
+        padding: 16px;
+        border-radius: 5px;
+    }
+    .login-btn:hover{
+        background: linear-gradient(#fd8700, #fc641d);
+        -webkit-box-shadow: 5px 5px 15px 5px #fc6f1d; 
+        box-shadow: 5px 5px 15px 5px #fc6f1d;
+    }
+    .login-forgot{
+        margin-left: auto;
+        margin-right: auto;
+        width: 11em;
+        text-align: center;
+        .login-forgot-image{
+            margin-top: 3em;
+            width: 65%;
+        }
+        .login-link{
+            margin: 16px 0px 20px 0px;
+        }
+        .login-link > a{
+            color: #fc701d;
+            font-size: small;
+        }
+    }
+}
