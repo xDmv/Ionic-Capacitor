@@ -1,9 +1,38 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>home</ion-title>
-  </ion-toolbar>
+<ion-header class="home-header">
+
+  <img src="../../../assets/image/phon-header.png" class="header-bg">
+
+      <div class="home-header-box">
+        <div class="home-exit" [routerLink]="['/login']"></div>
+        <img src="../../../assets/image/logo.png" alt="" class="home-logo">
+        <div class="home-menu" ></div>
+      </div>
+      <p class="home-title" >Hi, {{ username }}</p>
+
 </ion-header>
 
 <ion-content>
-
+  <div class="block"></div>
 </ion-content>
+
+<!-- <div class="home-page">
+
+  <div class="home-header">
+    <div class="home-header-box">
+      <div class="home-exit" [routerLink]="['/login']"></div>
+      <img src="../../../assets/image/logo.png" alt="" class="home-logo">
+      <div class="home-menu" ></div>
+    </div>
+    <p class="home-title" >Hi, {{ username }}</p>
+  </div>
+
+  <div class="home-content">
+    <div class="block">
+
+    </div>
+  </div>
+  <div class="home-menu">
+
+  </div>
+
+</div> -->
