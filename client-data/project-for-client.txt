@@ -1,0 +1,24 @@
+Test client: Sheldon Kirk
+Coffee App - Prototype Test Project
+
+https://www.dropbox.com/sh/mpoz4yamfr10ioi/AACuz2t_Xi6x-gWfYjMkAIJ1a?dl=0
+
+We like the look of your skillset - and are interested in giving you a project.
+
+Before we give you the project, we would love if you could spend a little bit of time to build an app based on some PSD designs we will provide you - to see your skillset, timeframe and quality of code.
+
+If you can set this up using Vue and Quasar framework that would be ideal.
+
+It can be without logic and some functions - but containing navigation between pages and the sidebar.
+
+Once you are done can you please upload to https://www.installonair.com for us, you can add our UDID to the build (00008020-001120CA026A002E) for iPhone please.
+
+Most of our apps have a similar flavour as we use the same designer usually - you can see an example of our apps attached here.
+
+Also our apps typically include a backend admin panel to manage aspects of the app which looks something like the following link - https://www.dropbox.com/sh/6s77km1dlpfr0zp/AADQnRTQAuofqSbVMNf_V_yna?dl=0 - just so you have an idea of our flavour of our apps/systems.
+
+We have a few projects lined up and ready - and looking to form long term relationships with you.
+
+We currently have two full stack developers from Ukraine/Russia on board.
+
+Sound good?
