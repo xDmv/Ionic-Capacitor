@@ -16,6 +16,10 @@ const routes: Routes = [
     path: 'new-order',
     loadChildren: () => import('./pages/new-order/new-order.module').then( m => m.NewOrderPageModule)
   },
+  {
+    path: 'new-order-map',
+    loadChildren: () => import('./pages/new-order-map/new-order-map.module').then( m => m.NewOrderMapPageModule)
+  },
 ];
 
 @NgModule({
