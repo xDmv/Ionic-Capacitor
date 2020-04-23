@@ -1,0 +1,104 @@
+.home-header {
+    background-image: linear-gradient(179deg, #fd9900 0%, #fc6f1d 100%);
+        .header-bg {
+            position: absolute;
+            top: -5em;
+        }
+        .home-header-box {
+            padding-top: 2em;
+            padding-bottom: 0.5em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 1em;
+            .icon-info{
+                z-index: 102;
+                width: 1.8em;
+            }
+            .title{
+                color: #fff;
+                z-index: 102;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            .icon-next{
+                z-index: 102;
+                width: 1.8em;
+            }
+        }
+}
+
+ion-content{
+    z-index: 109;
+}
+
+.box-coffee{
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+    .coffee_big{
+        width: 9em;
+        padding-bottom: 1em;
+    }
+}
+
+.segment{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: #f3f3f3;
+
+    .segment-item{
+        // font-size: 25px;
+        color: #919191;
+        font-family: "Trebuchet MS";
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .segment-item-active{
+        // font-size: 25px;
+        color: #e0760f;
+        font-family: "Trebuchet MS";
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}
+
+.list-items{
+    margin: 16px 0;
+    padding-top: 1em;
+    .item{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #c4c4c4;
+        padding: 1em 0px;
+        margin: 0 1em;
+            img{
+                width: 14%;
+                height: 14%;
+            }
+            .item-name{
+                font-size: 18px;
+                color: #000000;
+                font-family: "Trebuchet MS";
+                text-align: center;
+                margin: 0;
+            }
+            .item-price{
+                font-size: 24px;
+                color: #fc711d;
+                font-family: "Trebuchet MS";
+                font-weight: bold;
+                margin: 0;
+                padding-top: 0.3em;
+            }
+    }
+    .item:last-child{
+        border-bottom: none;
+    }
+}
