@@ -10,6 +10,22 @@
     }
 }
 
+.order-text-box{
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    text-align: center;
+    .client-name{
+        font-size: 47px;
+        color: #fc711d;
+        margin: 0;
+    }
+    .order-data{
+        font-size: 17px;
+        color: #919191;
+        margin: 0;
+    }
+}
+
 .list-items{
     margin: 16px 0;
     padding-top: 1em;
@@ -45,6 +61,7 @@
                 font-size: 17px;
                 color: #919191;
                 padding-top: 0.3em;
+                margin: 0;
             }
             .item-delete{
                 display: flex;
@@ -60,27 +77,34 @@
 
 .total-box{
     .title-order{
-        font-size: 17px;
         color: #919191;
         font-family: "Trebuchet MS";
+        font-size: 17px;
         text-align: center;
+        margin: 0;
+        padding-top: 0.3em;
     }
     .name-caffee{
-        font-size: 39px;
         color: #fc711d;
         font-family: "Trebuchet MS";
         font-weight: bold;
+        font-size: 32px;
         text-align: center;
+        margin: 0;
+        padding-top: 0.3em;
     }
     .adress{
-        font-size: 14px;
         color: #000000;
         font-family: "Trebuchet MS";
+        font-weight: bold;
+        font-size: 14px;
         text-align: center;
+        margin: 0;
+        padding-top: 0.3em;
     }
     .total{
+        font-size: 39px;
         font-family: "Trebuchet MS";
-        font-size: 17px;
         font-weight: bold;
         text-align: center;
     }
