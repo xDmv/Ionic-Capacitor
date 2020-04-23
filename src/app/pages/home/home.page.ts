@@ -7,11 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePage implements OnInit {
 
-  username: string = 'Sam'
+  username: string = 'Sam';
+  isActiveMenu: boolean = false;
 
   constructor() { }
 
   ngOnInit() {
   }
 
+  onToggleMenu(){
+    this.isActiveMenu = !this.isActiveMenu;
+  }
+  
 }
