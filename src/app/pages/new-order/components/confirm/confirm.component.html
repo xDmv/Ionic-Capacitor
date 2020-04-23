@@ -1,0 +1,38 @@
+<div class="order-box">
+  <p class="order-title">check and confirm your order</p>
+</div>
+
+<div>
+  <h2 class="client-name">John Snow</h2>
+  <p class="order-data">create 12/08/2018 10:33 AM</p>
+</div>
+
+<div class="list-items">
+  <div *ngFor="let item of order_items" class="item">
+    <img src="../../../assets/image/cup.png" alt="" class="item-cup">
+    <div>
+      <h3 class="item-name">{{ item.name }}</h3>
+      <p class="item-price">$ {{ item.price | number:'1.2' }} <span>x {{ item.items }}</span></p>
+      <p class="item-other">milk: soy,  sugar: 2</p>
+    </div>
+    <div class="item-delete">
+      <img src="../../../assets/image/delete.png" alt="" class="icon-delete">
+    </div>
+  </div>
+</div>
+
+<div class="total-box">
+  <p class="title-order">Where to pick up the order:</p>
+  <p class="name-caffee">Lorem Ipsum Cafe</p>
+  <p class="adress">Address: 445 Mount Eden Road, Mount Eden, Auckland.</p>
+  <p class="total">
+    <span style="color: #898989;">Total:</span>
+    <span style="color: #fc711d;">$ 62.50</span>
+  </p>
+</div>
+
+<div class="btn-box">
+  <button class="btn-next">
+    <span>Create Order</span>
+  </button>
+</div>

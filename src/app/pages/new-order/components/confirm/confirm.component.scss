@@ -1,0 +1,104 @@
+.order-box{
+    margin: 1.5em 0;
+    text-align: center;
+    .order-title{
+        font-size: 1em;
+        color: #919191;
+        font-family: "Trebuchet MS";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+.list-items{
+    margin: 16px 0;
+    padding-top: 1em;
+    .item{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #c4c4c4;
+        padding: 1em 0px;
+        margin: 0 1em;
+            img{
+                width: 14%;
+                height: 14%;
+            }
+            .item-name{
+                font-size: 18px;
+                color: #000000;
+                font-family: "Trebuchet MS";
+                margin: 0;
+            }
+            .item-price{
+                font-size: 24px;
+                color: #fc711d;
+                font-family: "Trebuchet MS";
+                font-weight: bold;
+                margin: 0;
+                padding-top: 0.3em;
+                span{
+                    color: #000;
+                }
+            }
+            .item-other{
+                font-family: "Trebuchet MS";
+                font-size: 17px;
+                color: #919191;
+                padding-top: 0.3em;
+            }
+            .item-delete{
+                display: flex;
+                align-items: center;
+                align-content: center;
+                .icon-delete{
+                    width: 2em;
+                    height: 2em;
+                }
+            }
+    }
+}
+
+.total-box{
+    .title-order{
+        font-size: 17px;
+        color: #919191;
+        font-family: "Trebuchet MS";
+        text-align: center;
+    }
+    .name-caffee{
+        font-size: 39px;
+        color: #fc711d;
+        font-family: "Trebuchet MS";
+        font-weight: bold;
+        text-align: center;
+    }
+    .adress{
+        font-size: 14px;
+        color: #000000;
+        font-family: "Trebuchet MS";
+        text-align: center;
+    }
+    .total{
+        font-family: "Trebuchet MS";
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+.btn-box{
+    margin: 1em 3em;
+    .btn-next{
+        width: 100%;
+        padding: 16px;
+        border-radius: 5px;
+        background-image: linear-gradient(179deg, #fd9900 0%, #fc6f1d 100%);
+        span{
+            font-size: 2em;
+            letter-spacing: 1px;
+            color: #ffffff;
+            font-family: "Trebuchet MS";
+            font-weight: bold;
+        }
+    }
+}
