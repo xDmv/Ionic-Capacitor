@@ -1,0 +1,28 @@
+.order-box{
+    margin: 1.5em 0;
+    text-align: center;
+    .order-title{
+        font-size: 1em;
+        color: #919191;
+        font-family: "Trebuchet MS";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+.btn-box{
+    margin: 1em 3em;
+    .btn-next{
+        width: 100%;
+        padding: 16px;
+        border-radius: 5px;
+        background-image: linear-gradient(179deg, #fd9900 0%, #fc6f1d 100%);
+        span{
+            font-size: 2em;
+            letter-spacing: 1px;
+            color: #ffffff;
+            font-family: "Trebuchet MS";
+            font-weight: bold;
+        }
+    }
+}
