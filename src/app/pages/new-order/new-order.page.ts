@@ -7,28 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewOrderPage implements OnInit {
 
-  items = [
-    {
-      "name" : "Americano+",
-      "price" : 4.25
-    },
-    {
-      "name" : "Cappuchino",
-      "price" : 6.25
-    },
-    {
-      "name" : "Americano2",
-      "price" : 4.25
-    },
-    {
-      "name" : "Flat White",
-      "price" : 9.50
-    }
-  ]
+  steps: string;
 
   constructor() { }
 
   ngOnInit() {
+    this.steps = "step1"
+  }
+
+  onNextStep(){
+    console.log('step::', this.steps);
+    if(this.steps === "step2"){
+      this.steps = "step3";
+    }
+    if(this.steps === "step1"){
+      this.steps = "step2";
+    }
+    console.log('step==', this.steps);
   }
 
 }

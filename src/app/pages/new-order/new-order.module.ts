@@ -7,6 +7,9 @@ import { IonicModule } from '@ionic/angular';
 import { NewOrderPageRoutingModule } from './new-order-routing.module';
 
 import { NewOrderPage } from './new-order.page';
+import { OrderComponent } from './components/order/order.component';
+import { MapComponent } from './components/map/map.component';
+import { ConfirmComponent } from './components/confirm/confirm.component';
 
 @NgModule({
   imports: [
@@ -15,6 +18,6 @@ import { NewOrderPage } from './new-order.page';
     IonicModule,
     NewOrderPageRoutingModule
   ],
-  declarations: [NewOrderPage]
+  declarations: [NewOrderPage, OrderComponent, MapComponent, ConfirmComponent]
 })
 export class NewOrderPageModule {}

@@ -1,0 +1,19 @@
+<div class="box-coffee">
+  <img src="../../../assets/image/coffee_big.png" alt="" class="coffee_big">
+</div>
+
+<div class="segment">
+  <a href="#" class="segment-item-active">Coffees</a>
+  <a href="#" class="segment-item">Cold brews</a>
+  <a href="#" class="segment-item">Ice cream</a>
+</div>
+<div class="list-items">
+  <div *ngFor="let item of items" class="item">
+    <img src="../../../assets/image/cup.png" alt="" class="item-cup">
+    <div>
+      <h3 class="item-name">{{ item.name }}</h3>
+      <p class="item-price">$ {{ item.price | number:'1.2' }}</p>
+    </div>
+    <img src="../../../assets/image/cart.png" alt="" class="item-cart">
+  </div>
+</div>
