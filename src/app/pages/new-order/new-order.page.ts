@@ -12,7 +12,7 @@ export class NewOrderPage implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.steps = "step3"
+    this.steps = "step1"
   }
 
   onNextStep(){

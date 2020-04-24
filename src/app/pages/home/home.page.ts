@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePage implements OnInit {
 
-  username: string = 'Sam';
+  username: string = 'John Snow';
   isActiveMenu: boolean = false;
 
   constructor() { }

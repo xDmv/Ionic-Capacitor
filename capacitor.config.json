@@ -1,6 +1,6 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "online-note",
+  "appId": "com.kirk.ionic",
+  "appName": "Coffee shop",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",

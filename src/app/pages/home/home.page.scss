@@ -1,42 +1,37 @@
-
-    .home-header {
-        background-image: linear-gradient(179deg, #fd9900 0%, #fc6f1d 100%);
-        .header-bg {
-            position: absolute;
-            top: -5em;
+.home-header {
+    background-image: linear-gradient(179deg, #fd9900 0%, #fc6f1d 100%);
+    .header-bg {
+        position: absolute;
+        top: -5em;
+    }
+    .home-header-box {
+        padding-top: 2.5em;
+        padding-bottom: 0.5em;
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+        .icon-exit{
+            z-index: 102;
         }
-
-        .home-header-box {
-            padding-top: 2em;
-            padding-bottom: 0.5em;
-            display: flex;
-            justify-content: space-around;
-            align-items: end;
-
-
-            .icon-exit{
-                z-index: 102;
-            }
-            .icon-menu{
-                width: 2.3em;
-                z-index: 102;
-            }
-
-            .home-logo {
-                width: 25%;
-                z-index: 102;
-            }
-
+        .icon-menu{
+            width: 2.3em;
+            z-index: 102;
         }
-        .home-title {
-            color: #fff;
-            padding-bottom: 1em;
-            text-align: center;
-            z-index: 109;
-            font-weight: bold;
-            position: relative;
+        .home-logo {
+            width: 25%;
+            z-index: 102;
+            padding-top: 0.2em;
         }
     }
+    .home-title {
+        color: #fff;
+        padding-bottom: 1em;
+        text-align: center;
+        z-index: 109;
+        font-weight: bold;
+        position: relative;
+    }
+}
 
 .home-box-btn{
     display: flex;
@@ -97,6 +92,7 @@ ion-content{
             justify-content: center;
             img{
                 width: 45%;
+                height: 45%;
                 padding-top: 30%;
                 padding-bottom: 5%;
             }
