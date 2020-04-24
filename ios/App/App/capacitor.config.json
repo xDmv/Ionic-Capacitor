@@ -1,0 +1,9 @@
+{
+  "appId": "com.kirk.ionic",
+  "appName": "Coffee shop",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {},
+  "linuxAndroidStudioPath": "/opt/android-studio/bin/studio.sh"
+}
